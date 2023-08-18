@@ -1,10 +1,10 @@
 package kotlinChallenge
 
 fun main(args: Array<String>) {
-    println("Enter any word with letter e")
-    val letter = readLine()!!.toString()
+    println("Enter any sentence or word with letter e")
+    val word = readLine() ?:""
     var counter = 0
-    for (c in letter) {
+    for (c in word) {
         if (c == 'e') {
             counter++
         }
@@ -22,3 +22,10 @@ fun assertEquals(i:Int, counter: Int) {
 
 
 }
+
+
+
+
+
+
+
